@@ -1,10 +1,10 @@
-﻿const years = Object.keys(sampleData); // getting years as keys of sampleData
+﻿const years = Object.keys(sampleData); 
 
-const data = Object.values(sampleData); // data as values of sampleData
+const data = Object.values(sampleData); 
 
 const horozontalChartDetails = {
 
-    type: 'horizontalBar', // type defines which chart need to draw
+    type: 'horizontalBar', 
 
     data: {
 
@@ -97,13 +97,13 @@ const doughnutChartDetails = {
 
         },
 
-        legend: { // if true will display legends
+        legend: { 
 
             display: false
 
         },
 
-        tooltips: { // if true will display tooltips
+        tooltips: { 
 
             enabled: false
 
